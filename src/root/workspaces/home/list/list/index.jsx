@@ -10,7 +10,6 @@ export const List = ({componentid, workspaces, onLoadingQueries}) => {
     items: workspaces,
     item: {
       header: Item.Header,
-      footer: Item.Footer,
       sections: Item.sections,
       onLoadingQueries: ({item: {
           workspaceid

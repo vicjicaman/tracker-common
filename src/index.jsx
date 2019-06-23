@@ -54,7 +54,7 @@ String.prototype.safeId = String.prototype.safe || function() {
 };
 
 const leftNavbar = (<React.Fragment></React.Fragment>);
-const brand = (<span className="navbar-brand"><i className="fa fa-code-fork"/>{' '}Repoflow</span>);
+const brand = (<span className="navbar-brand"><i className="fa fa-code-fork"/>{' '}Tracker</span>);
 const rightNavbar = (<React.Fragment></React.Fragment>);
 // Licensed to <<EMAIL>>
 const cntLicense = <span className="small"></span>;

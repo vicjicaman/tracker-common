@@ -8,11 +8,11 @@ import * as OperationUI from 'UI/system/operation'
 export const Header = () => (<div className="row mb-4">
   <div className="col-12 col-md-6">
     <div className="alert alert-info" role="alert">
-      <i className="fa fa-info-circle"></i>
-      Welcome to repoflow! a tool to help you manage multiple git repositories, semver release, dependencies...
+      <i className="fa fa-info-circle"></i>{' '}
+      Welcome! this is a simple issue tracker tool that use git as a data store.
     </div>
   </div>
-  <div className="col-12 col-md-6">
+  <div className="col-12 col-md-6 pt-4 ">
     <ul className="nav nav-pills">
       <li className="nav-item">
         <NavLink exact={true} className={"nav-link"} to={Routes.home()}>

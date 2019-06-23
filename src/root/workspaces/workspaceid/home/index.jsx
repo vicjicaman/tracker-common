@@ -3,6 +3,7 @@ import {compose} from 'recompose';
 import {Link} from 'react-router-dom';
 import {Content as ContentComp} from 'PKG/app-content/src'
 import {WorkspaceCommits} from './commits'
+import {WorkspaceIssues} from './issues'
 import * as WorkspaceUI from 'UI/workspace'
 
 /* , */
@@ -15,12 +16,16 @@ export const Content = ({workspace, workspace: {
 
     <Header workspace={workspace}></Header>
     <div className="row">
-      <ContentComp componentid={componentid} window={false} contentClass="col-12 col-lg-12 mt-1 mb-2" sections={[
+      <ContentComp componentid={componentid} window={false} contentClass="col-12 col-lg-12 mt-1 mb-2" sections={[{
+            sectionid: "issues",
+            label: () => (<span>Issues</span>),
+            content: () => <WorkspaceIssues workspace={workspace}/>
+          },
           {
             sectionid: "commits",
             label: () => (<span>
               <i className="fa  fa-clock-o"></i>{' '}History</span>),
-            content: () => (<WorkspaceCommits workspace={workspace}/>)
+            content: () => <WorkspaceCommits workspace={workspace}/>
           }
         ]}></ContentComp>
     </div>

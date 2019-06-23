@@ -1,7 +1,6 @@
 import React from "react";
 import {Switch, Route} from 'react-router-dom';
 
-import * as Home from './home'
 import * as Issue from './issueid'
 import * as Routes from 'Routes/workspaces/issues'
 
@@ -10,7 +9,6 @@ const getIssue = ({issueid}) => ({issueid})
 export const Content = ({workspace, Header}) => {
 
   return (<Switch>
-    <Route exact={true} path={Routes.issues()} render={() => (<Home.Content workspace={workspace} Header={Header}></Home.Content>)}/>
 
     <Route path={Routes.issue()} render={({
         match: {
@@ -24,7 +22,6 @@ export const Content = ({workspace, Header}) => {
 }
 
 export const Indice = ({workspace}) => (<React.Fragment>
-  <Route path={Routes.issues()} render={() => (<Home.Indice workspace={workspace}/>)}/>
 
   <Route path={Routes.issue()} render={({
       match: {

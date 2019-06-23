@@ -91,17 +91,12 @@ export const Header = ({componentid, workspace, workspace: {
         return (<div className="row mb-4">
           <Repository header={header} repository={repository} actions={actions}/>
           <div className="col-12 col-md-6">
-            <div>
-              <ul className="nav nav-pills">
+            <div className="pt-4">
+              <ul className="nav nav-pills i">
                 <li className="nav-item">
                   <NavLink exact={true} className={"nav-link"} to={Routes.workspace(workspace)}>
                     <i className="fa fa-home"></i>{' '}{workspaceid}</NavLink>
                 </li>
-                <li className="nav-item">
-                  <NavLink exact={true} className={"nav-link"} to={Routes.issues(workspace)}>
-                    <i className="fa fa-exclamation-circle"/>{' '}Issues</NavLink>
-                </li>
-                
               </ul>
             </div>
             {children}
