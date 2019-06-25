@@ -82,6 +82,10 @@
     "build:watch:prod": "run-p \"build:prod:* --watch\" "
   },
   "dependencies": {
+    "@nebulario/tracker-app-events": "link:./../tracker-app-events",
+    "@nebulario/tracker-app-stream": "link:./../tracker-app-stream",
+    "@nebulario/tracker-app-ui": "link:./../tracker-app-ui",
+    "@nebulario/tracker-app-query": "link:./../tracker-app-query",
     "@nebulario/tracker-lang": "1.70.0-master",
     "@nebulario/tracker-layout": "1.70.0-master",
     "@nebulario/tracker-notify": "1.70.0-master",

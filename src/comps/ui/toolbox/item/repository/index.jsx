@@ -1,5 +1,5 @@
 import React from "react";
-import {AlertIcon, MessageBoard} from 'PKG/app-ui/src'
+import {AlertIcon, MessageBoard} from '@nebulario/tracker-app-ui'
 
 export const Section = (props) => {
   const {item: {

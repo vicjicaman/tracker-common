@@ -16,7 +16,7 @@ import {
   InProgress,
   findQueryParams,
   isFragment
-} from 'PKG/app-query/src';
+} from '@nebulario/tracker-app-query';
 
 export const RegisterOperationRefetch = (mutation, refetch) => RegisterQueryRefetch(mutation, refetch, function(refetcherid, evt) {
 

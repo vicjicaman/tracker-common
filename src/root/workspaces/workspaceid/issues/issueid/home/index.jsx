@@ -4,7 +4,7 @@ import {compose} from 'recompose';
 import {Link, Redirect} from 'react-router-dom';
 import {Content as ContentComp} from 'PKG/app-content/src'
 
-import {Query} from 'PKG/app-query/src'
+import {Query} from '@nebulario/tracker-app-query'
 import * as CommentUI from 'UI/workspace/issue/comment'
 import * as IssueUI from 'UI/workspace/issue'
 import * as IssueActions from 'Actions/workspace/namespace/issue'

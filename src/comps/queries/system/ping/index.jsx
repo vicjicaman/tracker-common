@@ -1,5 +1,5 @@
 import gql from 'graphql-tag';
-import {RegisterQuery} from 'PKG/app-query/src'
+import {RegisterQuery} from '@nebulario/tracker-app-query'
 
 RegisterQuery(gql `query PingQuery ($type:String!, $params: JSON!)
 {

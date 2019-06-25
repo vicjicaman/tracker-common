@@ -1,6 +1,6 @@
 import React from "react";
 import {Mutation} from "react-apollo";
-import {LoadingIcon, LoadingButton} from '../../../app-ui/src';
+import {LoadingIcon, LoadingButton} from '@nebulario/tracker-app-ui';
 import {ID} from '../../id'
 
 export const OperationAction = ({

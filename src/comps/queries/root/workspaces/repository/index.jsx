@@ -1,5 +1,5 @@
 import gql from 'graphql-tag';
-import {RegisterQuery} from 'PKG/app-query/src'
+import {RegisterQuery} from '@nebulario/tracker-app-query'
 import * as NamespaceQueries from 'Queries/namespace'
 import {WorkspaceFragment} from 'Queries/workspace'
 import * as Commits from './commits'

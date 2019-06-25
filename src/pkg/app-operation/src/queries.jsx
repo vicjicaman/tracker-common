@@ -1,6 +1,6 @@
 import gql from 'graphql-tag';
-import {RegisterQuery} from 'PKG/app-query/src'
-import {Queries as StreamQueries} from 'PKG/app-stream/src'
+import {RegisterQuery} from '@nebulario/tracker-app-query'
+import {Queries as StreamQueries} from '@nebulario/tracker-app-stream'
 
 export const GeneralFragment = gql `
   fragment OperationGeneralFragment on Operation {

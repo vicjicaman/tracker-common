@@ -6,7 +6,7 @@ import * as Routes from 'Routes/operations'
 
 import {OperationsSummary} from './summary'
 import {OperationsList} from './list'
-import {Query} from 'PKG/app-query/src'
+import {Query} from '@nebulario/tracker-app-query'
 import {OperationConnector} from 'PKG/app-operation/src'
 
 const PureComp = ({componentid, operationList: list}) => (<React.Fragment>

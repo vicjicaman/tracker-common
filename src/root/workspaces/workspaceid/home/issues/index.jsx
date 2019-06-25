@@ -2,7 +2,7 @@ import React from "react";
 import _ from 'lodash'
 import {compose} from 'recompose';
 import {Link} from 'react-router-dom';
-import {Query} from 'PKG/app-query/src'
+import {Query} from '@nebulario/tracker-app-query'
 import {Content as ContentComp} from 'PKG/app-content/src'
 import * as WorkspaceIssueActions from 'Actions/workspace/namespace/issue'
 import * as WorkspaceRoutes from 'Routes/workspaces'

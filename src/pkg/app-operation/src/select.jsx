@@ -9,8 +9,8 @@ import {isLocked} from './utils'
 import {onEventListener} from './listener'
 
 import {LoadingIcon, LoadingButton} from '../../app-ui/src';
-import {QueryContext, findQuery, RegisterQueryRefetch, QueryActionConnector, getQueryRefetcher} from '../../app-query/src';
-import {InProgress} from '../../app-query/src'
+import {QueryContext, findQuery, RegisterQueryRefetch, QueryActionConnector, getQueryRefetcher} from '@nebulario/tracker-app-query';
+import {InProgress} from '@nebulario/tracker-app-query'
 
 const PureOperationSelect = ({
   componentid,

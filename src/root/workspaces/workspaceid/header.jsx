@@ -5,7 +5,7 @@ import * as Home from './home'
 import * as Routes from 'Routes/workspaces'
 
 import * as WorkspaceUI from 'UI/workspace'
-import {Query} from 'PKG/app-query/src'
+import {Query} from '@nebulario/tracker-app-query'
 import {Content as ContentComp} from 'PKG/app-content/src'
 import * as RepositoryUI from 'PKG/app-repository/src'
 import * as WorkspaceRepositorySyncActions from 'Actions/workspace/repository/sync'

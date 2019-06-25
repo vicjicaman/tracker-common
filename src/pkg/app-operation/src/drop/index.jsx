@@ -1,8 +1,8 @@
 import React from "react";
 import _ from "lodash"
 import {compose} from 'recompose';
-import {LoadingButton, DropMenu, LoadingIcon} from '../../../app-ui/src';
-import {InProgress} from '../../../app-query/src'
+import {LoadingButton, DropMenu, LoadingIcon} from '@nebulario/tracker-app-ui';
+import {InProgress} from '@nebulario/tracker-app-query'
 
 export const PureComp = (props) => {
   const {

@@ -5,7 +5,7 @@ import * as EntityUI from 'UI/toolbox/system/entity'
 import * as LabelUI from 'UI/toolbox/system/label'
 import {Link as RouteLink} from 'react-router-dom';
 import {hide} from 'Utils/hide'
-import {RelativeDate} from 'PKG/app-ui/src'
+import {RelativeDate} from '@nebulario/tracker-app-ui'
 
 export const Icon = () => (<i className="fa fa-exclamation-circle"/>)
 export const Label = ({subject}) => (<span><Icon/>{' '}{subject}</span>);

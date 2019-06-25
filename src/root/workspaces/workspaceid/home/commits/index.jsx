@@ -1,7 +1,7 @@
 import React from "react";
 import {compose} from 'recompose';
 import {Link} from 'react-router-dom';
-import {Query} from 'PKG/app-query/src'
+import {Query} from '@nebulario/tracker-app-query'
 import {List} from './list'
 
 export const WorkspaceCommits = ({workspace, workspace: {

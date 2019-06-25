@@ -5,7 +5,7 @@ import _ from 'lodash'
 import {Query} from "react-apollo";
 import {OperationConnector, Queries} from 'PKG/app-operation/src'
 import {Content as ContentComp} from 'PKG/app-content/src'
-import {StreamCanvas} from 'PKG/app-stream/src'
+import {StreamCanvas} from '@nebulario/tracker-app-stream'
 
 import * as UI from 'UI/toolbox/system/operation'
 

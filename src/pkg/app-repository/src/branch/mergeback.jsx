@@ -1,6 +1,6 @@
 import React from "react";
 import _ from "lodash";
-import {AlertIcon, InfoIcon} from 'PKG/app-ui/src'
+import {AlertIcon, InfoIcon} from '@nebulario/tracker-app-ui'
 import * as Utils from '../utils'
 import {Commit} from '../Commit'
 import {MergeSummary} from './merge'

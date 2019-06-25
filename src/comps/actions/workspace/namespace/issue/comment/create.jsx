@@ -1,5 +1,5 @@
 import React from "react";
-import {Query} from 'PKG/app-query/src'
+import {Query} from '@nebulario/tracker-app-query'
 import gql from "graphql-tag";
 import {
   Button,
