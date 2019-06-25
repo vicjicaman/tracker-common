@@ -5,7 +5,7 @@ import {compose} from 'recompose';
 import {addLocaleData} from 'react-intl';
 import {combineReducers} from 'redux';
 import {LangProvider, withLang} from '@nebulario/tracker-lang';
-import {resolver as EventResolver, schema as EventSchema, reducers as EventReducers} from 'PKG/app-event/src';
+import {reducers as EventReducers} from '@nebulario/tracker-app-events';
 import {reducers as QueryReducers, QueryManager, QueryProvider} from 'PKG/app-query/src';
 import {OperationManager, reducers as OperationReducers} from 'PKG/app-operation/src';
 import {reducers as ContentReducers} from 'PKG/app-content/src';
@@ -98,23 +98,9 @@ export const reducers = combineReducers({
 
 export const clientState = {
   typeDefs: [
-    ...EventSchema,
-    `
-    type Mutation {
-      event: EventMutations
-    }
-    type Query {
-      events: [Event]
-    }
-  `
   ],
   resolvers: {
-    Mutation: {
-      event: () => {
-        return {};
-      },
-      ...EventResolver
-    }
+
   },
   defaults: {
     events: []

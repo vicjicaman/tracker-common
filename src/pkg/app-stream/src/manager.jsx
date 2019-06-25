@@ -1,7 +1,7 @@
 import React from "react";
 import _ from 'lodash'
 import {compose, lifecycle, withStateHandlers} from 'recompose';
-import {EventConnector} from '../../app-event/src'
+import {EventConnector} from '@nebulario/tracker-app-events'
 import {StreamActionConnector} from './state/connector'
 
 const handleStreamCommands = function(comp) {

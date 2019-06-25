@@ -1,7 +1,7 @@
 import React from "react";
 import _ from 'lodash'
 import {compose, lifecycle} from 'recompose';
-import {EventConnector} from '../../app-event/src'
+import {EventConnector} from '@nebulario/tracker-app-events'
 import {QueryConnector} from './QueryConnector'
 
 const QUERY_MAP = {};
