@@ -1,6 +1,6 @@
 import React from "react";
 import {OperationConfirm} from './confirm'
-import {Form, FormValidator} from '../../../app-form/src'
+import {Form, FormValidator} from '@nebulario/tracker-app-form'
 import {OperationFormConnected} from '../utils'
 import {compose, lifecycle} from 'recompose';
 

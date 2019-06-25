@@ -4,7 +4,7 @@ import {compose, lifecycle} from 'recompose';
 import {ContentConnector} from './ContentConnector';
 import {ContentWindowControl} from './ContentWindowControl'
 import {ErrorBoundary} from '../../app-error/src';
-import {LoadingOverlay} from '../../app-ui/src';
+import {LoadingOverlay} from '@nebulario/tracker-app-ui';
 
 const PureComp = (props) => {
 

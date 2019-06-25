@@ -1,6 +1,6 @@
 import React from "react";
 import {compose, lifecycle} from 'recompose';
-import {EventConnector} from '../../app-event/src'
+import {EventConnector} from '@nebulario/tracker-app-events'
 import {ID} from '../id'
 
 /*export const CommandActionConnector = EventActionConnector({

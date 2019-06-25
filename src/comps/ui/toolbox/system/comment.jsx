@@ -2,7 +2,7 @@ import React from "react";
 import _ from 'lodash'
 import * as ItemUI from 'UI/toolbox/system/item'
 import * as EntityUI from 'UI/toolbox/system/entity'
-import {RelativeDate} from 'PKG/app-ui/src'
+import {RelativeDate} from '@nebulario/tracker-app-ui'
 import {hide as hideInfo} from 'Utils/hide'
 
 export const Icon = () => (<i className="fa fa-comment"/>)

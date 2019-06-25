@@ -2,6 +2,45 @@
 # yarn lockfile v1
 
 
+"@nebulario/tracker-app-events@1.70.0-master":
+  version "1.70.0-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-app-events/-/tracker-app-events-1.70.0-master.tgz#e70f487a93619479afb62d9226312e2cc9ea601f"
+  integrity sha512-0iXjeE0HcmN02f38TMH5TSCAouCULdlTH6DJ+Co3kuI0NZNawuVPmjhHiqiUn2vKkKOb69cycqWlDQ6dKq3N2A==
+  dependencies:
+    performance-now "^2.1.0"
+
+"@nebulario/tracker-app-form@1.70.0-master":
+  version "1.70.0-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-app-form/-/tracker-app-form-1.70.0-master.tgz#26e148e5ff7eab144c2acff469b9a8628ed62cd6"
+  integrity sha512-pkq+iVx2Kwft/gMTJRHS67OGpFEjB0KHOeqGLyS0vs/minByIAbaurG7B2p/E1p/sUjO9lb1pmBFjl4ATEyy0g==
+  dependencies:
+    performance-now "^2.1.0"
+    validator "^10.7.1"
+
+"@nebulario/tracker-app-modal@1.70.0-master":
+  version "1.70.0-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-app-modal/-/tracker-app-modal-1.70.0-master.tgz#3896a5af9710d0afe42e9ad781a86ac5952070ba"
+  integrity sha512-FSFoe+U7kri8HvtddODwicPG18w7FUulJ+j36BrJ7yBCteyen+A1Qd40F4SR4rcB+zomtV4L1wWUzRuGs1wQ7Q==
+  dependencies:
+    performance-now "^2.1.0"
+
+"@nebulario/tracker-app-stream@1.70.0-master":
+  version "1.70.0-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-app-stream/-/tracker-app-stream-1.70.0-master.tgz#aa75e52bcbbdc850233cf29f20a6be7703cac876"
+  integrity sha512-HOOn3uSJz0gaP3fXQZ4RfSF/voFA+xU8rpdidi7T/zHPOKv56kjkc11IGdZcOtl0LUXFf+dprOp7ukb1Jg7Rmg==
+  dependencies:
+    "@nebulario/tracker-app-events" "1.70.0-master"
+    "@nebulario/tracker-app-ui" "1.70.0-master"
+    performance-now "^2.1.0"
+
+"@nebulario/tracker-app-ui@1.70.0-master":
+  version "1.70.0-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-app-ui/-/tracker-app-ui-1.70.0-master.tgz#2be68057fbf4cf870256684ef5cfa6f591b9e0f3"
+  integrity sha512-1tyFpWTdn5krlf026ideRfN75vJjBktU+xfhx7DRIngH+ZLGm07pKA9ZlvZ7kYru3WPZV6T3JdIajA9F3x0DkQ==
+  dependencies:
+    moment "^2.22.1"
+    performance-now "^2.1.0"
+
 "@nebulario/tracker-lang@1.70.0-master":
   version "1.70.0-master"
   resolved "https://registry.yarnpkg.com/@nebulario/tracker-lang/-/tracker-lang-1.70.0-master.tgz#c9529d8d0de9fad1229a6a5470f60c09ff586cc8"

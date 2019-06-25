@@ -1,7 +1,7 @@
 import React from "react";
 import _ from "lodash";
 import {compose, withStateHandlers, lifecycle, withProps} from 'recompose';
-import {LoadingIcon, ConfigMenu} from '../../app-ui/src';
+import {LoadingIcon, ConfigMenu} from '@nebulario/tracker-app-ui';
 import {QueryContext} from '../../app-query/src';
 import {Item} from './Item';
 import {ListMenu} from './Menu' // check withStateHandlers

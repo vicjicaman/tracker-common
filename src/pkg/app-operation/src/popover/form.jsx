@@ -1,7 +1,7 @@
 import React from "react";
 import {compose, lifecycle, withStateHandlers} from 'recompose';
 import {OperationConfirm} from './confirm'
-import {Form, FormValidator} from '../../../app-form/src'
+import {Form, FormValidator} from '@nebulario/tracker-app-form'
 import {OperationFormConnected} from '../utils'
 
 // Check the device

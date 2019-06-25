@@ -2,7 +2,7 @@ import React from "react";
 import _ from 'lodash'
 import {Query, Mutation, ApolloConsumer} from "react-apollo";
 import {compose, lifecycle, withStateHandlers} from 'recompose';
-import {EventConnector} from '../../app-event/src'
+import {EventConnector} from '@nebulario/tracker-app-events'
 import {QueryConnector, getQueryRefetcher, findQueryParams, isFragment} from '../../app-query/src'
 import {Query as OperationsQuery} from './queries'
 //import {OperationContext} from './context'

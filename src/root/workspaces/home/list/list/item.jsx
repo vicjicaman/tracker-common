@@ -2,12 +2,12 @@ import React from "react";
 
 import _ from 'lodash'
 import {Link, Switch, Route} from 'react-router-dom';
-import {DropMenu} from 'PKG/app-ui/src'
+import {DropMenu} from '@nebulario/tracker-app-ui'
 
 import * as WorkspaceRoutes from 'Routes/workspaces'
 import * as WorkspaceUI from 'UI/workspace'
 import * as Actions from 'Actions/workspace'
-import {AlertIcon} from 'PKG/app-ui/src'
+import {AlertIcon} from '@nebulario/tracker-app-ui'
 
 export const Header = ({item}) => (<WorkspaceUI.Header workspace={item}/>)
 

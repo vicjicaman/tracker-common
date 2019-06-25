@@ -1,6 +1,6 @@
 import React from "react";
 import _ from "lodash"
-import {ExtFormConnector} from '../../app-form/src'
+import {ExtFormConnector} from '@nebulario/tracker-app-form'
 
 export const OperationFormConnected = ExtFormConnector((props) => {
   const {

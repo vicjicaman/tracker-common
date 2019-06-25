@@ -1,5 +1,5 @@
 import React from "react";
-import {SummaryDisplay} from 'PKG/app-ui/src'
+import {SummaryDisplay} from '@nebulario/tracker-app-ui'
 
 export const Summary = ({workspaces}) => {
 
