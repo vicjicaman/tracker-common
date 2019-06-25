@@ -8,7 +8,7 @@ import {Query as OperationsQuery} from './queries'
 import {isLocked} from './utils'
 import {onEventListener} from './listener'
 
-import {LoadingIcon, LoadingButton} from '../../app-ui/src';
+import {LoadingIcon, LoadingButton} from '@nebulario/tracker-app-ui';
 import {
   RegisterQueryRefetch,
   QueryConnector,

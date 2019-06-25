@@ -2,7 +2,7 @@ import React from "react";
 import _ from "lodash";
 import {compose, lifecycle} from 'recompose';
 import {ErrorBoundary} from '../../app-error/src';
-import {ConfigMenu} from '../../app-ui/src';
+import {ConfigMenu} from '@nebulario/tracker-app-ui';
 import {queriesInProgress} from '../../app-query/src';
 import {Content} from '../../app-content/src';
 

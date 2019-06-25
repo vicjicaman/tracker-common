@@ -1,5 +1,5 @@
 import React from "react";
-import {LoadingIcon} from 'PKG/app-ui/src';
+import {LoadingIcon} from '@nebulario/tracker-app-ui';
 import {InProgress} from 'PKG/app-query/src'
 import {Modal, ModalConnector} from 'PKG/app-modal/src'
 import {compose, lifecycle, withProps} from 'recompose';

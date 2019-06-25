@@ -9,6 +9,14 @@
   dependencies:
     performance-now "^2.1.0"
 
+"@nebulario/tracker-app-events@link:../tracker-app-events":
+  version "0.0.0"
+  uid ""
+
+"@nebulario/tracker-app-ui@link:../tracker-app-ui":
+  version "0.0.0"
+  uid ""
+
 "@nebulario/tracker-lang@1.70.0-master":
   version "1.70.0-master"
   resolved "https://registry.yarnpkg.com/@nebulario/tracker-lang/-/tracker-lang-1.70.0-master.tgz#c9529d8d0de9fad1229a6a5470f60c09ff586cc8"

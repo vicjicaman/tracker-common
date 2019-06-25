@@ -4,7 +4,7 @@ import {Utils as FileUtils} from 'PKG/app-repository/src'
 import * as Files from './files'
 import * as Commits from './commits'
 import * as RepositoryUI from 'PKG/app-repository/src'
-import {AlertIcon} from 'PKG/app-ui/src'
+import {AlertIcon} from '@nebulario/tracker-app-ui'
 
 const repositoryIssue = (<span>
   <i className="fa fa-code-fork"></i>{' '}<b className="text-danger">Repository issue</b>{' '}<AlertIcon/>

@@ -1,6 +1,6 @@
 import React from "react";
 import {compose, lifecycle, withStateHandlers} from 'recompose';
-import {LoadingOverlay} from '../app-ui/src';
+import {LoadingOverlay} from '@nebulario/tracker-app-ui';
 import {ErrorBoundary} from '../app-error/src';
 
 const PureComp = (props) => {

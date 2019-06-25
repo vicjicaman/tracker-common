@@ -1,6 +1,6 @@
 import React from "react";
 import {Link, Switch, Route} from 'react-router-dom';
-import {DropMenu} from 'PKG/app-ui/src'
+import {DropMenu} from '@nebulario/tracker-app-ui'
 import * as OperationUI from 'UI/toolbox/system/operation'
 import * as Actions from 'Actions/system/operation'
 import * as Routes from 'Routes/operations'

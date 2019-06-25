@@ -4,7 +4,7 @@ import {Query} from "react-apollo";
 import {compose, lifecycle, withProps} from 'recompose';
 import {StreamConnector} from './state/connector'
 import {StreamQuery} from './queries'
-import {LoadingIcon} from 'PKG/app-ui/src'
+import {LoadingIcon} from '@nebulario/tracker-app-ui'
 import {hide as hideInfo} from 'Utils/hide'
 
 const PureStreamCanvas = ({componentid, initStream, realtimeStream, stream: {

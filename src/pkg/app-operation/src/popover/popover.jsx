@@ -1,7 +1,7 @@
 import React from "react";
 import {Button, Popover, PopoverHeader, PopoverBody} from 'reactstrap';
 import {compose, lifecycle, withStateHandlers} from 'recompose';
-import {LoadingButton, LoadingIcon} from '../../../app-ui/src';
+import {LoadingButton, LoadingIcon} from '@nebulario/tracker-app-ui';
 import {isLocked} from '../utils'
 import {InProgress} from '../../../app-query/src'
 

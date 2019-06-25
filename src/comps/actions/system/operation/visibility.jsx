@@ -1,7 +1,7 @@
 import React from "react";
 import {Mutation} from "react-apollo";
 import {Button, FormGroup, Label, Input, FormText} from 'reactstrap';
-import {LoadingButton} from 'PKG/app-ui/src'
+import {LoadingButton} from '@nebulario/tracker-app-ui'
 import {Actions, Queries} from 'PKG/app-operation/src'
 
 export const Remove = (props) => {

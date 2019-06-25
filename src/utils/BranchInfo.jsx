@@ -2,7 +2,7 @@ import React from "react";
 import _ from 'lodash'
 import {Button, Popover, PopoverHeader, PopoverBody} from 'reactstrap';
 import {compose, lifecycle, withStateHandlers} from 'recompose';
-import {LoadingButton} from '../app-ui/src';
+import {LoadingButton} from '@nebulario/tracker-app-ui';
 import {Commit} from './Commit';
 
 export const getShortHash = (s) => s.substring(0, 7)

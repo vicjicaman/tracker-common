@@ -1,7 +1,7 @@
 import React from "react";
 import {Button, Popover, PopoverHeader, PopoverBody} from 'reactstrap';
 import {compose, lifecycle, withStateHandlers} from 'recompose';
-import {LoadingButton} from '../app-ui/src';
+import {LoadingButton} from '@nebulario/tracker-app-ui';
 
 export const PureComp = ({
   className,

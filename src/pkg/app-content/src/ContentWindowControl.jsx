@@ -1,7 +1,7 @@
 import React from "react";
 import _ from "lodash";
 import {centerContent} from './utils'
-import {DropMenu} from '../../app-ui/src';
+import {DropMenu} from '@nebulario/tracker-app-ui';
 
 export const ContentWindowControl = ({componentid, setWindowMode, mode}) => {
   const options = [];
