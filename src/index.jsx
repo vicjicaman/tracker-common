@@ -11,9 +11,9 @@ import {OperationManager, reducers as OperationReducers} from 'PKG/app-operation
 import {reducers as ContentReducers} from 'PKG/app-content/src';
 import {reducers as InlineSearchReducers} from 'PKG/app-search/src';
 import {reducers as ListReducers} from 'PKG/app-list/src';
-import {StreamManager, reducers as StreamReducers} from 'PKG/app-stream/src';
-import {reducers as FormReducers} from 'PKG/app-form/src';
-import {reducers as ModalReducers} from 'PKG/app-modal/src';
+import {StreamManager, reducers as StreamReducers} from '@nebulario/tracker-app-stream';
+import {reducers as FormReducers} from '@nebulario/tracker-app-form';
+import {reducers as ModalReducers} from '@nebulario/tracker-app-modal';
 import {reducers as ComponentReducers} from 'PKG/app-component/src';
 import {refetch} from "Queries/refetch"
 

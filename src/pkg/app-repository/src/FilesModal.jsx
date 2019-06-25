@@ -1,6 +1,6 @@
 import React from "react";
 import _ from 'lodash'
-import {Modal} from 'PKG/app-modal/src'
+import {Modal} from '@nebulario/tracker-app-modal'
 
 export const PureComp = (props) => {
   const {componentid, className, list} = props;

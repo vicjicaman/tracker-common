@@ -1,5 +1,5 @@
 import React from "react";
-import {Form, FormExternalConnector, FormConnector} from '../app-form/src'
+import {Form, FormExternalConnector, FormConnector} from '@nebulario/tracker-app-form'
 import {compose, lifecycle} from 'recompose';
 import {Button, FormGroup, Label, Input, FormText} from 'reactstrap';
 
