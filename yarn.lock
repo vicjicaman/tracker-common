@@ -24,10 +24,10 @@
   dependencies:
     performance-now "^2.1.0"
 
-"@nebulario/tracker-app-stream@1.70.0-release-pkg-prod":
-  version "1.70.0-release-pkg-prod"
-  resolved "https://registry.yarnpkg.com/@nebulario/tracker-app-stream/-/tracker-app-stream-1.70.0-release-pkg-prod.tgz#0c9a34bdbbf5b0b4226ef291af762c4f02425d91"
-  integrity sha512-UaMUV8EMdssBxgq3d77JNaCNsXM3x3FwfA4I757ExMa5VMltmq2UN47HCkNk6ablDJTHSPQAMrxAxmjsLhDPTg==
+"@nebulario/tracker-app-stream@1.70.2-master":
+  version "1.70.2-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-app-stream/-/tracker-app-stream-1.70.2-master.tgz#3413b5952f9bc88599616627fa2ff2cc0923c18e"
+  integrity sha512-wGw6EbnAwA64BvIuwb+kWS6/KC1gA2H2gHLjCMuBP4qyCSt+A51cODjl3huP9iYupQb5MHOsZiTod10+p2j6kA==
   dependencies:
     "@nebulario/tracker-app-events" "1.70.2-master"
     "@nebulario/tracker-app-ui" "1.70.1-master"
