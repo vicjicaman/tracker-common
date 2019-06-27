@@ -1,6 +1,6 @@
 {
   "name": "@nebulario/tracker-common",
-  "version": "1.70.2-master",
+  "version": "1.70.0-release-pkg-prod",
   "description": "Base for modules in node.",
   "mountpoint": "common",
   "main": "./dist/index.js",
@@ -89,7 +89,7 @@
     "@nebulario/tracker-app-ui": "1.70.1-master",
     "@nebulario/tracker-app-modal": "1.70.1-master",
     "@nebulario/tracker-app-form": "1.70.1-master",
-    "@nebulario/tracker-app-stream": "1.70.1-master",
+    "@nebulario/tracker-app-stream": "1.70.0-release-pkg-prod",
     "performance-now": "^2.1.0",
     "react-bootstrap-typeahead": "^3.1.3",
     "uuid": "^3.3.2",
