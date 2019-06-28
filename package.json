@@ -1,6 +1,6 @@
 {
   "name": "@nebulario/tracker-common",
-  "version": "1.70.3-master",
+  "version": "1.70.0-release-public-pkg-service-prod",
   "description": "Base for modules in node.",
   "mountpoint": "common",
   "main": "./dist/index.js",
